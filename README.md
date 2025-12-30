@@ -1,7 +1,7 @@
-# Data Warehouse and Analytics Project
+# Data Warehouse and Analytics Project for mercedes benz sales data
 
 Welcome to the **Data Warehouse and Analytics Project** repository.  
-This project demonstrates an end-to-end **modern data warehousing and analytics solution** using SQL Server, following industry-standard data engineering practices.
+This project demonstrates an end-to-end **modern data warehousing and analytics solution for mercedes benz sales data** using SQL Server, following industry-standard data engineering practices.
 
 This repository is built as a **portfolio-grade project** to showcase practical skills in data engineering, data modeling, and analytics.
 
@@ -13,7 +13,7 @@ The project follows the **Medallion Architecture** approach with three layers:
 
 **Bronze → Silver → Gold**
 
-![Data Architecture](docs/data_architecture.png)
+---   
 
 ### Layers Overview
 
@@ -113,9 +113,6 @@ Develop SQL-based analytics to provide insights into:
 - Product Performance
 - Sales Trends
 
-Detailed requirements are available in:
-`docs/requirements.md`
-
 ---
 
 ## 📂 Repository Structure
@@ -137,12 +134,11 @@ data-warehouse-project/
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
 │
-├── tests/                              # Test scripts and quality files
+├── tests/                              # Test scripts and quality checks files
 │
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
 ```
 ---
 
